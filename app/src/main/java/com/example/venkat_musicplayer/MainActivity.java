@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         stop = findViewById(R.id.stop);
         seekBar =findViewById(R.id.seekbar);
 
+        //seekbar
         seekBar.setMax(mediaPlayer.getDuration());
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
